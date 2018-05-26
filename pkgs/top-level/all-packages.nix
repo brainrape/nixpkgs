@@ -1145,6 +1145,8 @@ with pkgs;
 
   dlx = callPackage ../misc/emulators/dlx { };
 
+  do-agent = callPackage ../tools/networking/do-agent { };
+
   doitlive = callPackage ../tools/misc/doitlive { };
 
   dosage = callPackage ../applications/graphics/dosage {
