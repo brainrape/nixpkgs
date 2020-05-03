@@ -10,6 +10,16 @@ ver: deps:
                    meta.homepage = "https://github.com/${name}/";
                    inherit (info) sha256;
                  };
+                 
+                 do
+                 
+                 configurePhase = ''
+                   true
+                 '';
+                 
+                 buildPhase = ''
+                   true
+                 '';
 
                  installPhase = ''
                    mkdir -p $out
